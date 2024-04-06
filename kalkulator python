@@ -1,0 +1,64 @@
+def menu():
+    print('### KALKULATOR ###')
+    print('Wybierz dzialanie:')
+    print('1. Dodawanie')
+    print('2. Odejmowanie')
+    print('3. Mnozenie')
+    print('4. Dzielenie')
+    print('5. Potegowanie')
+    print('6. Zakoncz program')
+
+def dodawanie():
+    print('### Dodawanie ###')
+    a = int(input('Podaj pierwsza liczbe: '))
+    b = int(input('Podaj druga liczbe: '))
+    suma = a + b
+    print('Suma:', suma)
+
+def odejmowanie():
+    print('### Odejmowanie ###')
+    a = int(input('Podaj pierwsza liczbe: '))
+    b = int(input('Podaj druga liczbe: '))
+    roznica = a - b
+    print('Roznica:', roznica)
+
+def mnozenie():
+    print('### Mnozenie ###')
+    a = int(input('Podaj pierwsza liczbe: '))
+    b = int(input('Podaj druga liczbe: '))
+    iloczyn = a * b
+    print('Iloczyn:', iloczyn)
+
+def dzielenie():
+    print('### Dzielenie ###')
+    a = int(input('Podaj pierwsza liczbe: '))
+    b = int(input('Podaj druga liczbe: '))
+    iloraz = a / b
+    print("Iloraz:", iloraz)
+
+def potegowanie():
+    print('### Potegowanie ###')
+    a = int(input('Podaj pierwsza liczbe: '))
+    b = int(input('Podaj druga liczbe: '))
+    potega = a ** b
+    print('Potega elementu', potega)
+
+while True:
+    menu()
+    opcja = input('Wybierz opcje: ')
+
+    if opcja == "1":
+        dodawanie()
+    elif opcja == "2":
+        odejmowanie()
+    elif opcja == "3":
+        mnozenie()
+    elif opcja == "4":
+        dzielenie()
+    elif opcja == "5":
+        potegowanie()
+    elif opcja == "6":
+        print('Dziekujemy za skorzystanie z kalkulatora!')
+        break
+    else:
+        print('Nieprawidlowa opcja. Wybierz ponownie')
