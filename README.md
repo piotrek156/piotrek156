@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to my profile piotrek156</h1>
+<h1 align="center">Welcome to my profile</h1>
 <h3 align="center">misaki save me</h3>
 
 <h3 align="left">Connect with me:</h3>
